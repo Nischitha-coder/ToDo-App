@@ -1,7 +1,5 @@
-Ready
-Clean
-Prepare
-Throw
-Exercise
-Brunch
-Work
+Clean the room
+Throw the garbage
+Prepare food
+Breakfast
+Study
