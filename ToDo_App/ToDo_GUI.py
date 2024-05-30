@@ -8,11 +8,12 @@ add_button = fsg.Button("Add")
 list_box = fsg.Listbox(values=Functions.get_todos(), key="todos",
                        enable_events=True, size=[45,10])
 edit_button = fsg.Button("Edit")
-window = fsg.Window("To-Do App",
-                    layout=[[label],
-                            [input_box, add_button],
-                            [list_box, edit_button]
-                            ])
+
+layout = [[label],
+          [input_box, add_button],
+          [list_box, edit_button]
+          ]
+window = fsg.Window("To-Do App", layout=layout)
 
 while True:
     event, values = window.read()
