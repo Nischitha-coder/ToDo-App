@@ -1,5 +1,7 @@
 Clean the room
-Throw the garbage
-Prepare food
 Breakfast
 Study
+Preparing food
+Throw the garbage
+
+
