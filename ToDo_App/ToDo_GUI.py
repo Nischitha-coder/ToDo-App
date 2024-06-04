@@ -1,6 +1,11 @@
 import Functions
 import FreeSimpleGUI as fsg
 import time
+import os
+
+if not os.path.exists("TodoList.txt"):
+    with open("TodoList.txt", 'w'):
+        pass
 
 fsg.theme("DarkTeal10")
 
